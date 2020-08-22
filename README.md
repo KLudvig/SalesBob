@@ -1,6 +1,7 @@
 # SalesBob
 
-A lead generation bot for Staffing Agencies. Bob scrapes job boards to find matching clients and also reaches out to them. Created with React, Node.js and MongoDB.
+A lead generation bot for Staffing Agencies. Bob scrapes job boards to find matching clients and also reaches out to them. Created with React, Node.js and MongoDB. Because of GDPR this app can't be used.
+
 
 ## Install
 
