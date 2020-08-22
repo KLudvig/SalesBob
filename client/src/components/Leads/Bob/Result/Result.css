@@ -1,0 +1,105 @@
+.result-container {
+  min-height: 100vh;
+  background: #f7faff;
+  background: white;
+  padding: 30px;
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+.contacted-container {
+  width: 100%;
+  min-height: 100px;
+  display: inline-block;
+}
+.not-contacted-container {
+  width: 100%;
+  min-height: 100px;
+  display: inline-block;
+}
+.h2-not-contacted {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.h2-contacted {
+  display: inline-block;
+  color: #a09e9e;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/* List */
+ul {
+  list-style-type: none;
+}
+.list-text {
+  margin-right: 10px;
+  width: 31%;
+  display: inline-block;
+  font-size: 12px;
+  max-width: 200px;
+}
+.list-text-big {
+  font-size: 16px;
+  vertical-align: text-top;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.list-items {
+  background-color: white;
+  margin-left: -40px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  display: flex;
+  margin-bottom: 12px;
+  border-top: 1px solid #f9f8f8;
+}
+li.list-items:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.15);
+}
+.selection-box {
+  margin-top: 20px;
+}
+.list-left {
+  display: inline-block;
+  width: 80%;
+}
+.list-right {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.buttons {
+  margin-right: 37px;
+  text-align: center;
+  cursor: pointer;
+}
+.buttons:hover {
+  transform: scale(1.15);
+}
+.button-text {
+  font-size: 11px;
+  font-weight: 600;
+  display: none;
+}
+.overlay-when-scraping {
+  position: absolute;
+  top: 300px;
+  background: #093c4a;
+  min-height: 100vh;
+  margin-left: -10px;
+  margin-right: -10px;
+  width: 80%;
+  opacity: 0.7;
+  display: block;
+}
+.loading-icon {
+  display: block;
+  margin: auto;
+  width: 100px;
+  margin-top: 20px;
+}

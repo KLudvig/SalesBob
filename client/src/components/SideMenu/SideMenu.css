@@ -1,0 +1,40 @@
+.nav-container {
+  background: white;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  height: 100%; /* 100% Full-height */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  /*top: 60px;*/ /* Stay at the top */
+  top: 0px;
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  width: 20%;
+  text-align: left;
+}
+.nav-container a {
+  padding: 18px 8px 18px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  margin-top: 20px;
+}
+.active {
+  color: white;
+  background: #46b5d1 !important;
+  font-weight: 900;
+}
+.active-text {
+  font-weight: 900;
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+.coming-soon {
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 14px;
+  color: #f9bc05;
+  font-weight: 900;
+}

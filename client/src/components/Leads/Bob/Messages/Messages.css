@@ -1,0 +1,18 @@
+.shakeIt {
+  animation: shakeIt 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes shakeIt {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.07);
+  }
+  40% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.07);
+  }
+}
