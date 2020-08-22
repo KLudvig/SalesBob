@@ -1,5 +1,4 @@
 # SalesBob
-<<<<<<< HEAD
 
 A lead generation bot for Staffing Agencies. Bob scrapes job boards to find matching clients and also reaches out to them. Created with React, Node.js and MongoDB.
 
@@ -37,6 +36,3 @@ Then start React. Open up a new terminal window. Go to the client folder and the
 cd client
 yarn start
 ```
-=======
-A lead generation bot for Staffing Agencies. Bob scrapes job boards to find matching clients and also reaches out to them. Created with React, Node.js and MongoDB.
->>>>>>> b91914283e0f4bbed8727f13374823867bb74a37
